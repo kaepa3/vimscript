@@ -1,3 +1,24 @@
+function! Length() dict
+    return sqrt(self.x * self.x * self.y * self.y)
+endfunction
+
+function! NewVec2D(x,y)
+    return {'x':a:x,'y':a:y, 'len': function("Length")}
+endfunction
+
+let g:vec2d = {'x':0, 'y':0}
+
+function! g:vec2d.len() dict
+    return sqrt(self.x * self.x * self.y * self.y)
+endfunction
+
+function! NVec2D(x,y)
+    let self = copy(g:vec2d)
+    let self.x = a:x
+    let self.y = a:y
+    return self
+endfunction
+
 function! FizzBuzz(num)
     if a:num % 15 == 0
         return 'FizzBuzz'
