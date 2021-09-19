@@ -1,0 +1,25 @@
+"sweep_trail,txt"行末の’空白を自動的に取り除きます
+
+Version 1.0
+Auothor:thinca<thica+vim@gmail.com>
+License: VIM LICENSE
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+
+目次 *sweep_trail-contents*
+
+概要 |sweep_trail-interface|
+インターフェース |sweep_trail-commands|
+関数 |sweep_trail-function|
+キーマッピング |sweep_trail-key-mappings|
+カスタマイズ |sweep_trail-custumizing|
+更新履歴 |sweep_trail-changelog|
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+概要 *sweep_traul-changelog*
+
